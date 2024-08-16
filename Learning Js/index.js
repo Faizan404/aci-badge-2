@@ -53,127 +53,6 @@
     },
     phoneNumbers: ["123-456-7890", "987-654-3210"],
   },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
-  {
-    name: "John Doe",
-    age: 30,
-    isEmployed: true,
-    address: {
-      street: "123 Main St",
-      city: "Anytown",
-      state: "NY",
-    },
-    phoneNumbers: ["123-456-7890", "987-654-3210"],
-  },
 ];
 
 // Data Types
@@ -238,6 +117,85 @@ document.write(toFahrenheit, "F");
 let fahrenheit = 46;
 let toCelsius = fahrenheit - 32 * (5 / 9);
 // console.log(toCelsius, "C");
-alert(toCelsius, "C");
+// alert(toCelsius, "C");
+
+//* Decision Making
+// truthy = all the values other than falsy values
+// falsy = false, 0, -0, 0n, "", null, undefined, NaN
+
+// Conditional Operators
+// >
+// <
+// >=
+// <=
+// !=
+// !==
+// ==
+// ===
+
+// if else
+let userAge = 15;
+
+// if(condition){
+//   code
+// }
+
+if (userAge >= 18) {
+  console.log("Eligible");
+}else {
+  console.log("Not Eligible");
+}
+// if (userAge >= 18) console.log("Eligible")
+// else console.log("Not Eligible");
+
+let userInput = 4;
+if (userInput === 1) {
+    console.log("Monday");
+} else if (userInput === 2) {
+    console.log("Tuesday");
+} else if (userInput === 3) {
+    console.log("Wednesday");
+} else if (userInput === 4) {
+    console.log("Thursday");
+} else if (userInput === 5) {
+    console.log("Friday");
+} else if (userInput === 6) {
+    console.log("Saturday");
+} else if (userInput === 7) {
+    console.log("Sunday");
+} else {
+    console.log("Invalid week day")
+}
+
+// Logical Operators
+// AND &&
+// OR ||
+// NOT !
+
+// Ternary operator
+
+let result = userAge >= 18 ? "Eligible" : "Not Eligible";
+console.log(result);
+
+//? 1.Check two given numbers and return true if one of the numbers is 50 or if their sum is 50.
+let num1 = 50;
+let num2 = 13;
+let sum = num1 + num2;
+
+if (num1 === 50 || num2 === 50 || sum === 50) {
+    console.log("true")
+} else console.log("false");
+
+// AND && *
+// a | b | c
+// 1    0   0 = 0
 
 
+// OR || +
+// a | b | c
+// 1   0   0 = 1
+
+
+// NOT !
+
+if(!0) console.log("Hello World");
