@@ -199,3 +199,31 @@ if (num1 === 50 || num2 === 50 || sum === 50) {
 // NOT !
 
 if(!0) console.log("Hello World");
+
+
+// Input values
+let hoursWorked = 45; // Total hours worked this week
+let hourlyRate = 20; // Hourly pay rate
+
+// Validate inputs
+if (hoursWorked < 0 || hourlyRate <= 0) {
+    console.error("Hours worked and hourly rate must be positive.");
+} else {
+    let regularPay = Math.min(hoursWorked, 40) * hourlyRate;
+    let overtimePay = 0;
+
+    // Calculate overtime pay if hours worked is more than 40
+    if (hoursWorked > 40) {
+        overtimePay = (hoursWorked - 40) * hourlyRate * 1.5; // 50% more than the regular rate
+    }
+
+    let totalPay = regularPay + overtimePay;
+
+    console.log(`Regular Pay: $${regularPay.toFixed(2)}`);
+    if (overtimePay > 0) {
+        console.log(`Overtime Pay: $${overtimePay.toFixed(2)}`);
+    }
+    console.log(`Total Pay: $${totalPay.toFixed(2)}`);
+}
+
+
