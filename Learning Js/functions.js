@@ -41,17 +41,17 @@ function calcAge1(age = 2000) {
 // calcAge1(2004); //arguments
 
 function check50(n1, n2) {
-  let num1 = n1;
-  let num2 = n2;
+  let num1 = n1; // 20
+  let num2 = n2; // 50
   let sum = num1 + num2;
 
-  //   if (num1 === 50 || num2 === 50 || sum === 50) {
-  //     console.log("true");
-  //   } else console.log("false");
+    if (num1 === 50 || num2 === 50 || sum === 50) {
+      console.log("true");
+    } else console.log("false");
 
-  if (num1 === 50 || num2 === 50 || sum === 50) {
-    return "true";
-  } else return "false";
+  // if (num1 === 50 || num2 === 50 || sum === 50) {
+  //   return "true";
+  // } else return "false";
 }
 console.log(check50(50, 13));
 console.log(check50(12, 13));
