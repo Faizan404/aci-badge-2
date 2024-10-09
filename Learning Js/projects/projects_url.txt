@@ -1,0 +1,3 @@
+https://getquiz.netlify.app/
+https://gettodolive.netlify.app/
+https://weatherinfocn.netlify.app/
